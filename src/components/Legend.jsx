@@ -4,7 +4,7 @@ export default function Legend() {
   // ==========================================
   // 1. 拖动逻辑（默认位置在左下角）
   // ==========================================
-  const [pos, setPos] = useState({ x: window.innerWidth - 1380, y: window.innerHeight - 250 });
+  const [pos, setPos] = useState({ x: 60, y: 500 });
   const dragging = useRef(false);
   const offset = useRef({ x: 0, y: 0 });
 
