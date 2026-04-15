@@ -20,9 +20,6 @@ export default function FilterPanel({ config, onFilter }) {
   };
 
   const isSimulating = config?.isSimulating || false;
-  // 🌟 修复：直接读取 App.jsx 中的 nextTuition 和 nextCapacity
-  const simTuition = config?.nextTuition || 100000;
-  const simCapacity = config?.nextCapacity || 800;
 
   const stopEvent = (e) => e.stopPropagation();
 
